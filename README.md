@@ -1,9 +1,17 @@
-# Getting Started
+- Build environment details:
+    - Requires java version - 11
 
-### Reference Documentation
-For further reference, please consider the following sections:
+    - Uses maven as the build and packaging tool
 
-* [Official Apache Maven documentation](https://maven.apache.org/guides/index.html)
-* [Spring Boot Maven Plugin Reference Guide](https://docs.spring.io/spring-boot/docs/2.5.5/maven-plugin/reference/html/)
-* [Create an OCI image](https://docs.spring.io/spring-boot/docs/2.5.5/maven-plugin/reference/html/#build-image)
 
+- Instructions to run the program
+    - Make sure you have java 11 and maven installed on your machine
+
+    - Open command prompt at the root of this project and execute mvn clean install
+      The command will compile the code, run the tests and create a jar in your target directory
+      CommandLineApp-0.0.1-SNAPSHOT.jar
+
+    - To execute the CommandLineApp-0.0.1-SNAPSHOT.jar file change directory
+      to target folder and execute -
+
+      java -jar CommandLineApp-0.0.1-SNAPSHOT.jar
